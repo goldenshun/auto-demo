@@ -15,6 +15,7 @@ jobs:
   pr_check:
     <<: *defaults
     steps:
+      - checkout
       - run: npx auto pr-check --url ${CIRCLE_BUILD_URL}
 
 workflows:
