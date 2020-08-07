@@ -1,3 +1,53 @@
+# v1.3.0 (Fri Aug 07 2020)
+
+### Release Notes
+
+_From #6_
+
+```yml
+pr_check:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: npx auto pr-check --url ${CIRCLE_BUILD_URL}
+
+- pr_check:
+          filters:
+            branches:
+              ignore:
+                - master
+```
+
+_From #4_
+
+Adding a PR check:
+```yml
+jobs:
+  release:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: npm ci
+      - run: npx auto pr-check --url ${CIRCLE_BUILD_URL}
+      - run: npx auto shipit
+```
+
+---
+
+#### 🚀 Enhancement
+
+- Add pr check [#4](https://github.com/goldenshun/auto-demo/pull/4) ([@goldenshun](https://github.com/goldenshun))
+
+#### 🐛 Bug Fix
+
+- Move PR check back to separate job [#6](https://github.com/goldenshun/auto-demo/pull/6) ([@goldenshun](https://github.com/goldenshun))
+
+#### Authors: 1
+
+- Sean Connolly ([@goldenshun](https://github.com/goldenshun))
+
+---
+
 # v1.2.1 (Fri Aug 07 2020)
 
 ### Release Notes
