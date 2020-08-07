@@ -1,3 +1,23 @@
+# v1.4.0 (Fri Aug 07 2020)
+
+### Release Notes
+
+_From #7_
+
+Use `.autorc` instead of polluting `package.json` with more stuff.
+
+---
+
+#### 🚀 Enhancement
+
+- Use autorc instead [#7](https://github.com/goldenshun/auto-demo/pull/7) ([@goldenshun](https://github.com/goldenshun))
+
+#### Authors: 1
+
+- Sean Connolly ([@goldenshun](https://github.com/goldenshun))
+
+---
+
 # v1.3.0 (Fri Aug 07 2020)
 
 ### Release Notes
