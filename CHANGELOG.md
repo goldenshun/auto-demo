@@ -1,3 +1,26 @@
+# v1.5.3 (Fri Aug 07 2020)
+
+### Release Notes
+
+_From #12_
+
+I just cannot man
+```jsx
+<Button color="greeeeeen">Greeeeeeen</Button>
+```
+
+---
+
+#### 🐛 Bug Fix
+
+- Add slack dep [#12](https://github.com/goldenshun/auto-demo/pull/12) ([@goldenshun](https://github.com/goldenshun))
+
+#### Authors: 1
+
+- Sean Connolly ([@goldenshun](https://github.com/goldenshun))
+
+---
+
 # v1.5.2 (Fri Aug 07 2020)
 
 ### Release Notes
