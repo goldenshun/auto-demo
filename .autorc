@@ -1,5 +1,5 @@
 {
-  "plugins": ["npm"],
+  "plugins": ["npm", "slack"],
   "labels": [
     {
       name: "major",
