@@ -1,6 +1,6 @@
 {
   "name": "auto-demo",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Demonstrates package releases with auto https://github.com/intuit/auto",
   "main": "index.js",
   "scripts": {
