@@ -1,3 +1,28 @@
+# v1.5.0 (Fri Aug 07 2020)
+
+### Release Notes
+
+_From #8_
+
+### Cool stuff happened
+```
+console.log('auto-demo for lisa');
+```
+
+Oh yeah and I forgot we need to add this very important note.
+
+---
+
+#### 🚀 Enhancement
+
+- Demo for Lisa [#8](https://github.com/goldenshun/auto-demo/pull/8) ([@goldenshun](https://github.com/goldenshun))
+
+#### Authors: 1
+
+- Sean Connolly ([@goldenshun](https://github.com/goldenshun))
+
+---
+
 # v1.4.0 (Fri Aug 07 2020)
 
 ### Release Notes
