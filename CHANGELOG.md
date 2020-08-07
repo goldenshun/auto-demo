@@ -1,3 +1,27 @@
+# v1.5.2 (Fri Aug 07 2020)
+
+### Release Notes
+
+_From #11_
+
+### This is some markdoooown
+
+```jsx
+<Button color="magenta">Magenta!</Button>
+```
+
+---
+
+#### 🐛 Bug Fix
+
+- Slack all day [#11](https://github.com/goldenshun/auto-demo/pull/11) ([@goldenshun](https://github.com/goldenshun))
+
+#### Authors: 1
+
+- Sean Connolly ([@goldenshun](https://github.com/goldenshun))
+
+---
+
 # (Fri Aug 07 2020)
 
 ### Release Notes
