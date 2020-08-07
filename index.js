@@ -1,1 +1,1 @@
-console.log('auto-demo 4 pr-2');
+console.log('auto-demo 5 pr-2');
