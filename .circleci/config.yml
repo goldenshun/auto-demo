@@ -11,10 +11,19 @@ jobs:
     steps:
       - checkout
       - run: npm ci
-      - run: npx auto pr-check --url ${CIRCLE_BUILD_URL}
       - run: npx auto shipit
+  pr_check:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: npx auto pr-check --url ${CIRCLE_BUILD_URL}
 
 workflows:
   build_and_release:
     jobs:
       - release
+      - pr_check:
+          filters:
+            branches:
+              ignore:
+                - master
