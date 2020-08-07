@@ -1,1 +1,1 @@
-console.log('auto-demo 0');
+console.log('auto-demo 1');
