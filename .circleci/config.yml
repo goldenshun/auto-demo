@@ -6,25 +6,14 @@ defaults: &defaults
     - image: circleci/node:latest-browsers
 
 jobs:
-  install:
+  release:
     <<: *defaults
     steps:
       - checkout
       - run: npm ci
-
-  release:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: ~/auto-demo
-      - run:
-          name: Release
-          command: npx auto shipit
+      - run: npx auto shipit
 
 workflows:
   build_and_release:
     jobs:
-      - install
-      - release:
-          requires:
-            - install
+      - release
