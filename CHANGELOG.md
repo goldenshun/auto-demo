@@ -1,3 +1,27 @@
+# (Fri Aug 07 2020)
+
+### Release Notes
+
+_From #10_
+
+Just updating config
+
+---
+
+#### ⚠️ Pushed to `master`
+
+- Try slack integration ([@goldenshun](https://github.com/goldenshun))
+
+#### 📝 Documentation
+
+- Custom labels [#10](https://github.com/goldenshun/auto-demo/pull/10) ([@goldenshun](https://github.com/goldenshun))
+
+#### Authors: 1
+
+- Sean Connolly ([@goldenshun](https://github.com/goldenshun))
+
+---
+
 # v1.5.0 (Fri Aug 07 2020)
 
 ### Release Notes
