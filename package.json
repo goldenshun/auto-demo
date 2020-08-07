@@ -17,5 +17,7 @@
     "url": "https://github.com/goldenshun/auto-demo/issues"
   },
   "homepage": "https://github.com/goldenshun/auto-demo#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "@auto-it/slack": "9.50.0"
+  }
 }
