@@ -1,1 +1,1 @@
-console.log('auto-demo for lisa 2');
+console.log('auto-demo with a slack notification');
