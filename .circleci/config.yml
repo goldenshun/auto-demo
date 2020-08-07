@@ -9,6 +9,7 @@ jobs:
   install:
     <<: *defaults
     steps:
+      - checkout
       - run: npm ci
 
   release:
