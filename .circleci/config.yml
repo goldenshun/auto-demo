@@ -1,0 +1,29 @@
+version: 2.1
+
+defaults: &defaults
+  working_directory: ~/auto-demo
+  docker:
+    - image: circleci/node:latest-browsers
+
+jobs:
+  install:
+    <<: *defaults
+    steps:
+      - run: npm ci
+
+  release:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/auto-demo
+      - run:
+          name: Release
+          command: npx auto shipit
+
+workflows:
+  build_and_release:
+    jobs:
+      - install
+      - release:
+          requires:
+            - install
