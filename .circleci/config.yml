@@ -12,8 +12,17 @@ jobs:
       - checkout
       - run: npm ci
       - run: npx auto shipit
+  pr_check:
+    <<: *defaults
+    steps:
+      - run: npx auto pr-check
 
 workflows:
   build_and_release:
     jobs:
       - release
+      - pr_check:
+          filters:
+            branches:
+              ignore:
+                - master
