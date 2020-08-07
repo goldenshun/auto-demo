@@ -1,0 +1,29 @@
+{
+  "name": "auto-demo",
+  "version": "1.0.0",
+  "description": "Demonstrates package releases with auto https://github.com/intuit/auto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldenshun/auto-demo.git"
+  },
+  "keywords": [],
+  "author": "Sean Connolly <sconnolly17@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldenshun/auto-demo/issues"
+  },
+  "homepage": "https://github.com/goldenshun/auto-demo#readme",
+  "devDependencies": {
+    "auto": "9.49.5"
+  },
+  "auto": {
+    "plugins": [
+      "npm"
+    ],
+    "onlyPublishWithReleaseLabel": true
+  }
+}
