@@ -31,5 +31,10 @@
       description: "Changes only affect the documentation",
       releaseType: "none",
     },
+    {
+      name: "release",
+      description: "Create a release when this pr is merged",
+      releaseType: "release",
+    },
   ]
 }
